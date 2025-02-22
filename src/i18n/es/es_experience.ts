@@ -2,40 +2,49 @@ import type { Experience } from '@/types'
 
 const experience: Experience = {
   title: 'Experiencia',
-  description: 'Puedes ver mi currículum haciendo clic en el siguiente botón.',
+  description: 'Puedes descargar mi currículum haciendo clic en el botón a continuación.',
   download_button: 'Descargar CV',
   present: 'Presente',
   month: 'mes | meses',
   year: 'año | años',
   list: [
     {
-      company: 'Apple Inc.',
-      position: 'Director Ejecutivo',
-      url: 'http://www.applebutwithmorebananas.com',
-      startDate: '2011-03',
+      company: 'PT Satkomindo Mediyasa',
+      position: 'Asociado de Proyectos de TI',
+      url: 'https://www.satkomindo.com/',
+      startDate: '2023-08',
       endDate: 'Presente',
       highlights: [
-        'Inventé la serie iFruit, que incluye el revolucionario Apple Banana: el primer smartphone que también puedes comer.',
-        'Negocié exitosamente tratados de paz con gigantes tecnológicos rivales usando el poder persuasivo del baile interpretativo.',
-        'Lancé el Macbook Airless: el primer portátil que realmente flota en el aire.'
+        'Lideré el desarrollo e implementación de una aplicación para automatizar los flujos de trabajo de documentos administrativos relacionados con las redes de comunicación entre la Sede Central, las Unidades de Trabajo y los Proveedores.',
+        'Ejecuté la integración del sistema para la aplicación, asegurando una sincronización de datos fluida y procesos administrativos eficientes.',
+        'Mejoré la eficiencia mediante la automatización de los procesos de flujo de trabajo de documentos, reduciendo el riesgo de errores manuales y duplicación de datos.',
+        'Permití una gestión más organizada y estructurada de los documentos administrativos, manteniendo los documentos esenciales separados de los demás.',
+        'Aseguré el monitoreo en tiempo real de todos los datos administrativos, proporcionando una mejor visibilidad del estado y progreso de los documentos.',
+        'Entregué informes detallados para cada solicitud o emisión de Permisos de Trabajo a los Líderes de Equipo y Jefes de Departamento, apoyando una toma de decisiones más informada.',
+        'Al aprovechar la aplicación, aceleré significativamente y mejoré la precisión de los procesos administrativos, apoyando la eficiencia operativa y reduciendo la carga de tareas administrativas manuales.'
       ],
       description:
-        'Desde que tomé el timón en Apple Inc., he dirigido a la compañía a través de olas de innovación mientras usaba una capa de superhéroe en todas las reuniones ejecutivas. Mi estilo de liderazgo se centra en desatar la creatividad, fomentar un ambiente donde se anima a los ingenieros de software a usar pijamas para aumentar la productividad, y reemplazar todas las sillas de oficina con bolsas de frijoles por razones ergonómicas.'
+        "Lideré el desarrollo e implementación de una aplicación para automatizar los flujos de trabajo de documentos administrativos relacionados con las redes de comunicación entre la Sede Central, las Unidades de Trabajo y los Proveedores, ejecuté la integración del sistema para garantizar una sincronización de datos fluida, mejoré la eficiencia mediante la automatización de flujos de trabajo para reducir errores manuales y duplicación de datos, permití una gestión estructurada de documentos, aseguré el monitoreo en tiempo real de los datos administrativos, entregué informes detallados para apoyar la toma de decisiones, y aceleré significativamente y mejoré la precisión de los procesos administrativos para mejorar la eficiencia operativa."
     },
     {
-      company: 'Google LLC',
-      position: 'Jefe Global de Huevos de Pascua',
-      url: 'http://www.googolplexthegame.com',
-      startDate: '2015-04',
-      endDate: 'Presente',
+      company: 'Universidad de Tecnología de Bandung',
+      position: 'Desarrollador Full-stack',
+      url: 'http://www.utb-univ.ac.id',
+      startDate: '2020-10',
+      endDate: '2023-07',
       highlights: [
-        'Creé el primer huevo de Pascua impulsado por IA del mundo que solo aparece cuando los usuarios adivinan correctamente el número de caramelos de goma en un frasco virtual',
-        'Organicé un torneo internacional de escondite usando Google Earth, lo cual incrementó la participación de los usuarios en un 5000%.'
+        'Desarrollé un sistema de gestión de calificaciones de estudiantes dentro del sistema académico, produciendo informes de transcripciones y calificaciones fáciles de leer para el personal académico. Construido utilizando Codeigniter, PHP, JavaScript, Bootstrap y CSS.',
+        'Desarrollé y construí un Sistema de Información Académica en Línea utilizado por los estudiantes para el aprendizaje en el campus. Construido utilizando Codeigniter, Laravel, PHP, JavaScript, NuxtJS, Bootstrap y CSS.',
+        'Gestioné bases de datos, incluyendo normalización y reestructuración.',
+        'Desarrollé y construí un Sistema de Aprendizaje en Línea utilizado por estudiantes y profesores durante el proceso de enseñanza y aprendizaje en el campus. Construido utilizando Codeigniter, Laravel, PHP, JavaScript, NuxtJS, Bootstrap y CSS.',
+        'Construí una aplicación de exámenes en línea basada en CBT para la admisión de nuevos estudiantes, incluyendo la gestión de datos de departamentos, tipos de exámenes y evaluaciones. Construido utilizando Laravel y VueJS.',
+        'Construí un Sistema de Encuestas para realizar encuestas relacionadas con la mejora del rendimiento y la satisfacción del servicio. Como desarrollador backend, el sistema fue construido utilizando Laravel.',
+        'Supervisé el rendimiento de los miembros del equipo de desarrolladores backend.'
       ],
       description:
-        'Como Jefe Global de Huevos de Pascua en Google LLC, he liderado la infusión de diversión y sorpresas en nuestros productos. Mi trabajo asegura que cada búsqueda y clic revele una posible sonrisa, mejorando la interacción del usuario y profundizando la lealtad a la marca. También he sido pivotal en el desarrollo de la característica "Búsqueda de Snacks", donde la IA de Google sugiere snacks basados en el historial de navegación de los usuarios, mejorando significativamente la productividad de la tarde.'
-    }
+        'Desarrollé y construí varios sistemas académicos, incluyendo un sistema de gestión de calificaciones de estudiantes que produce informes de transcripciones fáciles de leer, un Sistema de Información Académica en Línea para el aprendizaje de los estudiantes, y un Sistema de Aprendizaje en Línea para el proceso de enseñanza y aprendizaje, utilizando frameworks como Codeigniter, Laravel, PHP, JavaScript, NuxtJS, Bootstrap y CSS. Además, creé una aplicación de exámenes en línea basada en CBT para la admisión de nuevos estudiantes y un Sistema de Encuestas para la evaluación del rendimiento y la satisfacción del servicio, mientras gestionaba bases de datos mediante normalización y reestructuración. Como desarrollador backend, también fui responsable de supervisar el rendimiento de los miembros de mi equipo backend.'
+    },
   ]
-}
+};
 
 export default experience

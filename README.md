@@ -1,10 +1,10 @@
-# Vuefolio
+# Roni RS
 
 <p align="center">
 <img align="center" width="800" src="https://i.postimg.cc/nz6T6gfB/vuefolio-netlify-app.webp">
 </p>
 
-Welcome to the Vuefolio Template project! This template is designed to help you create a professional portfolio by simply updating the `i18n` localization files and making minor adjustments. Whether you're a designer, developer, or any professional, this template can be adapted to fit your needs and showcase your work in multiple languages.
+This project is designed to help you create a professional portfolio by simply updating the `i18n` localization files and making minor adjustments. Whether you're a designer, developer, or any professional, this project can be adapted to fit your needs and showcase your work in multiple languages.
 
 ## Features
 
@@ -35,8 +35,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ralodev/vuefolio.git
-   cd vuefolio
+   git clone https://github.com/roniksy/portfolio.git
+   cd portfolio
    ```
 2. Install dependencies:
     ```bash
@@ -75,11 +75,11 @@ This project utilizes Web3Forms due to its:
 
 ### Language Configuration
 Edit i18n Files: Navigate to the i18n directory. 
-Here, you'll find directories with typescript files for each supported language (e.g., en/en_about.ts, en/en_experience.ts, etc.). Edit these files to update text throughout the template.
+Here, you'll find directories with typescript files for each supported language (e.g., en/id_about.ts, en/id_experience.ts, etc.). Edit these files to update text throughout the template.
 
 #### Add New Languages: 
 To add a new language:
-Duplicate one of the existing language directories and and rename it and the files inside (e.g., `src/i18n/en` to `src/i18n/fr`, `./fr/en_about.ts` to `./fr/fr_about.ts` for French).
+Duplicate one of the existing language directories and and rename it and the files inside (e.g., `src/i18n/en` to `src/i18n/fr`, `./fr/id_about.ts` to `./fr/fr_about.ts` for French).
 
 Update the content inside your new file to the desired language.
 Register the new language in the i18n configuration file `src/i18n/messages.ts`.
@@ -101,7 +101,7 @@ This will update the primary color in all of the components of the application. 
 </p>
 
 ### Adding Your Content
-Projects: Update the projects.ts file of your main language (e.g. `src/i18n/en/en_projects.ts`) Customize the information to showcase your projects, **keeping the syntax as it is to avoid errors**.
+Projects: Update the projects.ts file of your main language (e.g. `src/i18n/en/id_projects.ts`) Customize the information to showcase your projects, **keeping the syntax as it is to avoid errors**.
 
 _Note: You only need to add the static properties like urls and images in the main language (english, unless changed) file._
 
@@ -141,4 +141,4 @@ Raúl López (ralodev) -
 
 
 ## Acknowledgements
-- Inspired in Dopefolio by [@Rammcodes](https://github.com/rammcodes)
+- Inspired in Dopefolio by [@Ralodev](https://github.com/ralodev)

@@ -3,70 +3,69 @@ import type { Projects } from '@/types'
 const projects: Projects = {
   title: 'Proyectos',
   source: 'GitHub',
-  website: 'Sitio Web',
+  website: 'Sitio web',
   main: [
     {
-      name: 'Vuefolio',
+      name: 'Portafolio',
       techstack: ['Vuejs', 'i18n', 'TypeScript', 'Tailwind CSS'],
-      image: 'vuefolio_cover.webp',
+      image: 'portfolio_cover.webp',
       description:
-        'Una plantilla de portafolio construida con Vue.js, i18n y TypeScript. Es altamente personalizable, fácil de configurar y completamente optimizada para rendimiento, SEO y accesibilidad.',
-      src: 'https://github.com/ralodev/vuefolio',
-      url: 'https://vuefolio.netlify.app/'
+        'Una plantilla de portafolio construida con Vue.js, i18n y TypeScript. Es altamente personalizable, fácil de configurar y está completamente optimizada para rendimiento, SEO y accesibilidad.',
+      src: 'https://github.com/ronisky/portfolio',
+      url: 'https://github.com/ronisky/portfolio'
     },
     {
-      name: 'AlienSignalDetector',
-      techstack: ['Morse', 'Windows 95', 'WebAssembly', 'Firebase'],
+      name: 'Perbakin',
+      techstack: ['PHP', 'Blade', 'Postgres'],
       image: 'project_cover.webp',
       description:
-        'Aplicación revolucionaria que utiliza las últimas tecnologías web para escanear la radiación de fondo de microondas cósmicas en busca de señales alienígenas. Perfecta para astrónomos aficionados y entusiastas de la ciencia ficción que quieren ser los primeros en tuitear sobre el contacto extraterrestre.',
-      src: 'https://github.com/johndoe/aliensignaldetector',
-      url: 'https://detect-alien-signals-now.com/'
+        'Este sistema está diseñado para apoyar la gestión de Perbakin (Asociación de Tiro y Caza de Indonesia) con funciones como el registro de miembros, la gestión de permisos de armas de fuego, los horarios de entrenamiento y el monitoreo de competiciones de tiro. Su objetivo es mejorar la eficiencia administrativa y la transparencia dentro de la organización. 🎯🔫',
+      src: 'https://github.com/ronisky/perbakin',
+      url: 'https://github.com/ronisky/perbakin'
     },
     {
-      name: 'QuantumCoffeeBrewer',
-      techstack: ['Quantum Computing', 'Q#', 'Azure', 'Amazon S3'],
+      name: 'SIMUS',
+      techstack: ['Javascript', 'PHP', 'CSS'],
       image: 'project_cover.webp',
       description:
-        'Aprovecha el poder de la computación cuántica para preparar la taza de café perfecta. Esta aplicación calcula la temperatura óptima y el tiempo de preparación basado en la mecánica cuántica, prometiendo moléculas de cafeína más enredadas y en superposición.',
-      src: 'https://github.com/johndoe/quantumcoffeebrewer',
-      url: 'https://quantumcoffeebrewer.com/'
+        'Esta aplicación web es parte de mi investigación titulada "Sistema de Información y Gobernanza de Gestión de Visitantes para Museos Usando el Método FIFO."',
+      url: 'https://github.com/ronisky/simus',
+      src: 'https://github.com/ronisky/simus'
     }
   ],
-  // Puedes dejar este arreglo vacío
   other: [
     {
-      name: 'MemeGeneratorX',
-      techstack: ['Binario', 'Notepad ++', 'MS Paint'],
+      name: 'slack-age-bot',
+      techstack: ['Go'],
       description:
-        'Una herramienta avanzada, impulsada por IA, que genera memes personalizados basados en tu estado de ánimo. Solo dile cómo te sientes, y él hará el resto. Perfecto para aquellos que necesitan expresarse pero no encuentran las palabras adecuadas.',
-      url: 'https://github.com/johndoes/MemeGeneratorX',
-      src: 'https://github.com/johndoes/MemeGeneratorX'
+        "Slack Age Bot es un bot ligero para Slack que calcula y responde con la edad del usuario según su entrada. Diseñado para una integración sencilla, permite a los usuarios determinar rápidamente edades a partir de fechas de nacimiento mediante comandos de Slack. ¡Perfecto para diversión en equipo o cálculos rápidos! 🎂🤖",
+      url: 'https://github.com/ronisky/slack-age-bot',
+      src: 'https://github.com/ronisky/slack-age-bot'
     },
     {
-      name: 'VirtualBakeOff',
-      techstack: ['Aplicación de notas de Blackberry', 'MSDOS'],
+      name: 'shayna-backend',
+      techstack: ['PHP', 'Blade', 'Vue', 'Mysql'],
       description:
-        'Sumérgete en el reino caprichoso de una aplicación de realidad virtual que te otorga la extraordinaria capacidad de participar en emocionantes competiciones de repostería, ¡todo desde la comodidad de tu propia cocina! Aprovechando el ilimitado potencial de la tecnología VR de vanguardia, emprenderás una odisea culinaria, elaborando una variedad de deliciosos pasteles y repostería digital que deleitarán el paladar tanto de mortales como de deidades. \n\nPero he aquí, la pieza de resistencia de esta escapada fantástica radica en el juicio impecable de una inteligencia artificial, perfeccionada a través de la observación meticulosa no solo de cada programa de cocina que jamás haya adornado el plano terrestre, sino también inspirada en los anales ilustres del entretenimiento animado como los venerados épicos de Futurama y la hilaridad irreverente de Los Simpsons. ¡Oh, las historias que podría contarte, pero lamentablemente, eso es una narrativa para otro momento, anidada dentro de los anales de la leyenda culinaria y la maravilla tecnológica!',
-      url: 'https://github.com/johndoes/VirtualBakeOff',
-      src: 'https://github.com/johndoes/VirtualBakeOff'
+        'Aplicación revolucionaria que utiliza lo último en tecnologías web para escanear la radiación cósmica de fondo en microondas en busca de señales alienígenas. Perfecta para astrónomos aficionados y entusiastas de la ciencia ficción que quieren ser los primeros en twittear sobre el contacto extraterrestre.',
+      src: 'https://github.com/ronisky/shayna-backend',
+      url: 'https://github.com/ronisky/shayna-backend/'
     },
     {
-      name: 'SleepyTimeScheduler',
-      techstack: ['Ruby', 'Iconify', 'Rust'],
+      name: 'go-bookstore',
+      techstack: ['Go', 'Mysql'],
       description:
-        'Un programador dinámico y basado en algoritmos que decide cuándo deberías dormir basado en tu actividad en redes sociales. Porque, ¿por qué decidir tú cuándo dormir cuando una aplicación puede hacerlo por ti?',
-      url: 'https://github.com/johndoes/SleepyTimeScheduler',
-      src: 'https://github.com/johndoes/SleepyTimeScheduler'
+        'Book Store API es una API sencilla y escalable para gestionar libros, autores y transacciones de clientes. Diseñada con eficiencia en mente, proporciona endpoints para explorar libros, buscar por categoría o autor y realizar operaciones CRUD básicas. Perfecto para construir una librería en línea o un sistema de gestión de bibliotecas. 📚🚀',
+      url: 'https://github.com/ronisky/go-bookstore',
+      src: 'https://github.com/ronisky/go-bookstore'
     },
     {
-      name: 'PlantWhisperer',
-      techstack: ['Kotlin', 'Spark AR', 'Blogger', 'Blender'],
+      name: 'Go Movies Basic',
+      techstack: ['Go'],
       description:
-        'Una aplicación para amantes de las plantas que traduce las necesidades de tus plantas al inglés claro. ¿Alguna vez te has preguntado si tu helecho tiene sed o tu cactus está solo? ¡Deja que PlantWhisperer te diga lo que realmente están pensando!',
-      url: 'https://github.com/johndoes/PlantWhisperer',
-      src: 'https://github.com/johndoes/PlantWhisperer'
-    }
+        "Go Movies Basic es una API ligera y eficiente para gestionar datos de películas, construida con Golang. Proporciona endpoints para recuperar detalles de películas, buscar filmes y realizar operaciones CRUD básicas. Ideal para desarrolladores que buscan una solución rápida y escalable para una base de datos de películas. 🚀",
+      url: 'https://github.com/ronisky/Go-Movies-Basic',
+      src: 'https://github.com/ronisky/Go-Movies-Basic'
+    },
   ]
 }
 

@@ -33,7 +33,7 @@
           </GlassButton>
         </a>
         <a v-if="src != ''" :href="src" target="_blank" ref="noreferrer noopener">
-          <GlassButton bg="bg-primary-600" size="small">
+          <GlassButton bg="bg-sky-500" size="small">
             <template #icon>
               <WebIcon class="h-6 w-6"></WebIcon>
             </template>

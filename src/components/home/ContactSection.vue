@@ -51,7 +51,7 @@
                 :class="
                   copied
                     ? 'cursor-default bg-neutral-600'
-                    : 'cursor-pointer bg-primary-800 hover:bg-primary-900 '
+                    : 'cursor-pointer bg-sky-500 hover:bg-sky-700 '
                 "
               >
                 <span

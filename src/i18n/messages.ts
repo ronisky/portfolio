@@ -8,6 +8,11 @@ import es_experience from './es/es_experience'
 import es_projects from './es/es_projects'
 import es_about from './es/es_about'
 import es_contact from './es/es_contact'
+import id_hero from '@/i18n/id/id_hero'
+import id_experience from '@/i18n/id/id_experience'
+import id_projects from '@/i18n/id/id_projects'
+import id_about from '@/i18n/id/id_about'
+import id_contact from '@/i18n/id/id_contact'
 export default {
   en: {
     hero: en_hero,
@@ -15,6 +20,13 @@ export default {
     projects: en_projects,
     about: en_about,
     contact: en_contact
+  },
+  id: {
+    hero: id_hero,
+    experience: id_experience,
+    projects: id_projects,
+    about: id_about,
+    contact: id_contact
   },
   es: {
     hero: es_hero,

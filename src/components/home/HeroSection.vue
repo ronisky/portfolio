@@ -4,7 +4,7 @@
 
     <div class="content relative space-y-8 text-center">
       <h1
-        class="source-sans lg:6xl text-balance text-5xl font-black uppercase tracking-wide text-primary-950 md:text-6xl"
+        class="source-sans lg:6xl text-balance text-5xl font-black normal-case tracking-wide text-primary-950 md:text-6xl"
       >
         {{ $t('hero.title') }}
       </h1>
@@ -39,7 +39,7 @@
           target="_blank"
           rel="noopener"
         >
-          <GlassButton size="small" bg="bg-sky-700" title="LinkedIn profile">
+          <GlassButton size="small" bg="bg-primary-700" title="LinkedIn profile">
             <template #icon>
               <LinkedinIcon class="h-6 w-6" />
             </template>

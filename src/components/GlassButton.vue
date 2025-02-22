@@ -37,7 +37,7 @@ const button_spacing: Record<string, string> = {
 const props = defineProps({
   bg: {
     type: String,
-    default: 'bg-primary-700'
+    default: 'bg-sky-500'
   },
   title: {
     type: String,

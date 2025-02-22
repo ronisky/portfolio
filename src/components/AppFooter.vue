@@ -72,83 +72,83 @@
               <animate fill="freeze" attributeName="height" begin="0.8s" dur="0.6s" values="0;5" />
             </rect>
           </svg>
-          <h1 class="self-center text-2xl font-semibold">John Doe</h1>
+          <h1 class="self-center text-2xl font-semibold">Roni RS</h1>
         </div>
         <!-- Leave one attribution, delete the other -->
 
         <span class="text-sm">
           Thank you for visiting my portfolio.
-          <br />Here are some useful links:
+<!--          <br />Here are some useful links:-->
         </span>
         <br />
         <span name="attribution 1" class="text-xs text-gray-400"
           >Made with
-          <a href="https://github.com/ralodev/vuefolio" target="_blank">Vuefolio</a></span
+          <a href="https://github.com/ronisky/portfolio" target="_blank">Portfolio</a></span
         >
       </div>
-      <div class="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 lg:w-2/3">
-        <div class="space-y-3">
-          <h2 class="uppercase">Navigation</h2>
-          <ul class="space-y-1">
-            <li>
-              <RouterLink to="/">Home</RouterLink>
-            </li>
-            <li>
-              <RouterLink to="/#experience">Experience</RouterLink>
-            </li>
-            <li>
-              <RouterLink to="/#projects">Projects</RouterLink>
-            </li>
-            <li>
-              <RouterLink to="/#about">About</RouterLink>
-            </li>
-          </ul>
-        </div>
-        <div class="space-y-3">
-          <h2 class="uppercase">Navigation 2</h2>
-          <ul class="space-y-1">
-            <li>
-              <a href="#" target="_blank">Link 1</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 2</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 3</a>
-            </li>
-          </ul>
-        </div>
-        <div class="space-y-3">
-          <h2 class="uppercase">Navigation 3</h2>
-          <ul class="space-y-1">
-            <li>
-              <a href="#" target="_blank">Link 1</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 2</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 3</a>
-            </li>
-          </ul>
-        </div>
-        <div class="space-y-3">
-          <h2 class="uppercase">Social media</h2>
-          <div class="flex justify-start space-x-3">
-            <a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">
-              <FacebookIcon class="h-5 w-5" />
-            </a>
-            <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">
-              <TwitterIcon class="h-5 w-5" />
-            </a>
-            <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
-              <InstagramIcon class="h-5 w-5" />
-            </a>
-          </div>
-        </div>
-      </div>
+<!--      <div class="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 lg:w-2/3">-->
+<!--        <div class="space-y-3">-->
+<!--          <h2 class="uppercase">Navigation</h2>-->
+<!--          <ul class="space-y-1">-->
+<!--            <li>-->
+<!--              <RouterLink to="/">Home</RouterLink>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <RouterLink to="/#experience">Experience</RouterLink>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <RouterLink to="/#projects">Projects</RouterLink>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <RouterLink to="/#about">About</RouterLink>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="space-y-3">-->
+<!--          <h2 class="uppercase">Navigation 2</h2>-->
+<!--          <ul class="space-y-1">-->
+<!--            <li>-->
+<!--              <a href="#" target="_blank">Link 1</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="#" target="_blank">Link 2</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="#" target="_blank">Link 3</a>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="space-y-3">-->
+<!--          <h2 class="uppercase">Navigation 3</h2>-->
+<!--          <ul class="space-y-1">-->
+<!--            <li>-->
+<!--              <a href="#" target="_blank">Link 1</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="#" target="_blank">Link 2</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="#" target="_blank">Link 3</a>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="space-y-3">-->
+<!--          <h2 class="uppercase">Social media</h2>-->
+<!--          <div class="flex justify-start space-x-3">-->
+<!--            <a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">-->
+<!--              <FacebookIcon class="h-5 w-5" />-->
+<!--            </a>-->
+<!--            <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">-->
+<!--              <TwitterIcon class="h-5 w-5" />-->
+<!--            </a>-->
+<!--            <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">-->
+<!--              <InstagramIcon class="h-5 w-5" />-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
-    <div class="py-3 text-center text-sm">© 2024 John Doe.</div>
+    <div class="py-3 text-center text-sm">© {{ new Date().getFullYear() }} Roni RS.</div>
   </footer>
 </template>
 

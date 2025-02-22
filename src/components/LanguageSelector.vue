@@ -43,6 +43,7 @@ import { useI18n } from 'vue-i18n'
 import EnglishIcon from './icons/EnglishIcon.vue'
 import SpanishIcon from './icons/SpanishIcon.vue'
 import ChevronIcon from './icons/ChevronIcon.vue'
+import IndonesianIcon from '@/components/icons/IndonesianIcon.vue'
 // import FrenchIcon from './icons/FrenchIcon.vue'
 // import JapaneseIcon from './icons/JapaneseIcon.vue'
 
@@ -52,6 +53,7 @@ const selectedLanguage = ref('EN')
 const locale = useI18n()
 const languageOptions = [
   { language: 'English', flagIcon: EnglishIcon, code: 'en' },
+  { language: 'Bahasa Indonesia', flagIcon: IndonesianIcon, code: 'id' },
   { language: 'Español', flagIcon: SpanishIcon, code: 'es' }
   // { language: 'Français', flagIcon: FrenchIcon, code: 'fr' },
   // { language: 'Japanese', flagIcon: JapaneseIcon, code: 'jp' }

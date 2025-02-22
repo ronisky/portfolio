@@ -1,20 +1,19 @@
 import type { Hero } from '@/types'
 
 const hero: Hero = {
-  title: 'Hola, mi nombre es John Doe',
+  title: 'Codificando el Futuro, Conectando el Mundo!',
   subtitle:
-    'He dominado el arte de convertir el café en código y el caos en orden. Mi pasión por resolver problemas es igualada solo por mi amor por hacer panqueques caseros los domingos por la mañana.',
-  name: 'John Phillip Doe',
-  url: 'https://john-does.com/',
+    "Soy Roni, un apasionado Ingeniero de Software que disfruta explorando, programando y dejando fluir la creatividad con una dosis de cafeína. Para mí, cada línea de código no es solo texto, sino una clave para resolver problemas y hacer del mundo un lugar mejor. Construyo sistemas que no solo funcionan, sino que también mejoran la vida. ¡Vamos a romper los límites, innovar y crear el futuro juntos!",
+  name: 'Roni RS',
+  url: 'https://roni.web.id/',
   contact_button: 'Contáctame',
-  //Si un perfil tiene una cadena vacía '', el botón no se renderizará
   profiles: {
-    linkedin: 'https://linkedin.com/in/johndoe-innovator',
-    github: 'https://github.com/johndoethecoderohyeah',
-    youtube: 'https://youtube.com/johndoesstuff',
-    twitter: 'https://twitter.com/johndoetechuncensored',
-    instagram: '',
-    facebook: 'https://facebook.com/johndoepersonalstuff'
+    linkedin: 'https://linkedin.com/in/roni-setiawan/',
+    github: 'https://github.com/ronisky',
+    youtube: 'https://youtube.com/ronierone',
+    twitter: 'https://twitter.com/roni_erone',
+    instagram: 'https://instagram.com/roni_erone',
+    facebook: 'https://facebook.com/iyeuroni'
   },
   home: 'Inicio'
 }

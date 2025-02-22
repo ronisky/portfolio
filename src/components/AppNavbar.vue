@@ -1,9 +1,9 @@
 <template>
   <header class="fixed z-50 w-full">
-    <div class="z-10 bg-base-50 text-xl uppercase text-zinc-800 shadow duration-300">
+    <div class="z-10 bg-base-50 text-xl text-zinc-800 shadow duration-300">
       <div class="content source-sans mx-auto flex w-full items-center justify-between py-4">
         <router-link
-          class="open-sans group my-auto flex items-center gap-2 font-bold text-primary-900"
+          class="open-sans group my-auto flex items-center gap-2 normal-case font-bold text-sky-900"
           to="/"
         >
           <img
@@ -11,21 +11,21 @@
             src="@/assets/img/profile.webp"
             class="h-10 w-10 rounded-full rounded-tl-none duration-500 sm:group-hover:rounded-br-sm sm:group-hover:rounded-tl-full"
           />
-          Vuefolio
+          Roni RS
         </router-link>
-        <div class="flex items-center space-x-2 font-semibold">
+        <div class="flex items-center space-x-2 uppercase font-semibold">
           <nav class="hidden items-center space-x-2 md:flex [&>a]:px-1">
-            <router-link class="hover:text-primary-800" to="/">{{ $t('hero.home') }}</router-link>
-            <router-link class="hover:text-primary-800" to="/#experience">{{
+            <router-link class="hover:text-sky-500" to="/">{{ $t('hero.home') }}</router-link>
+            <router-link class="hover:text-sky-500" to="/#experience">{{
               $t('experience.title')
             }}</router-link>
-            <router-link class="hover:text-primary-800" to="/#projects">{{
+            <router-link class="hover:text-sky-500" to="/#projects">{{
               $t('projects.title')
             }}</router-link>
-            <router-link class="hover:text-primary-800" to="/#about">{{
+            <router-link class="hover:text-sky-500" to="/#about">{{
               $t('about.title')
             }}</router-link>
-            <router-link class="hover:text-primary-800" to="/#contact">{{
+            <router-link class="hover:text-sky-500" to="/#contact">{{
               $t('contact.title')
             }}</router-link>
           </nav>

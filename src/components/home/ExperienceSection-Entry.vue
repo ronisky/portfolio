@@ -1,9 +1,9 @@
 <template>
   <li
-    class="before: relative pb-8 before:absolute before:left-[-35px] before:top-[6px] before:z-[1] before:h-4 before:w-4 before:rounded-full before:bg-primary-900"
+    class="before: relative pb-8 before:absolute before:left-[-35px] before:top-[6px] before:z-[1] before:h-4 before:w-4 before:rounded-full before:bg-sky-700"
   >
     <article>
-      <h1 class="open-sans text-xl font-bold text-primary-900">
+      <h1 class="open-sans text-xl font-bold text-sky-900">
         {{ props.position }}
       </h1>
       <time class="gap-2 font-mono text-sm font-semibold text-gray-700 sm:flex sm:text-sm">
