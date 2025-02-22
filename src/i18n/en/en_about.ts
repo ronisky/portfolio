@@ -8,7 +8,7 @@ const about: About = {
     title: 'Education',
     list: [
       {
-        title: 'Bachelor of Computer Science',
+        title: 'Bachelor of Computer Engineering',
         institution: 'Bandung University of Technology',
         url: 'https://www.utb-univ.ac.id/',
         description:

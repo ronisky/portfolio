@@ -1,9 +1,5 @@
 # Roni RS
 
-<p align="center">
-<img align="center" width="800" src="https://i.postimg.cc/nz6T6gfB/vuefolio-netlify-app.webp">
-</p>
-
 This project is designed to help you create a professional portfolio by simply updating the `i18n` localization files and making minor adjustments. Whether you're a designer, developer, or any professional, this project can be adapted to fit your needs and showcase your work in multiple languages.
 
 ## Features
@@ -15,9 +11,6 @@ This project is designed to help you create a professional portfolio by simply u
 - **SEO Friendly**: Pre-configured with basic SEO best practices.
 - **Great Scores**: Highly performant in website audits ([PageSpeed](https://pagespeed.web.dev/analysis/https-vuefolio-netlify-app/ijy8r6njbj?form_factor=desktop))
 
-<p align="center">
-<img align="center" width="600" src="https://i.postimg.cc/C5kJY7wt/image.webp">
-</p>
 
 ## Getting Started
 
